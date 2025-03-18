@@ -14,7 +14,7 @@ set localFolder=C:\Users\kenan\Desktop\Trash
 set serverFolder=/srv/data/Trash
 
 :: Define SFTP command
-set SFTP_COMMAND=open sftp://root:Kenan1904Vanessa.@192.168.1.209/ -hostkey="ssh-ed25519 255 hESleWVXa68XFtuGd5cGljGYn2mqf1kVZtJV5ajifpg"
+set SFTP_COMMAND=open sftp://root:Kenan1904Vanessa.@192.168.1.209/ -hostkey=""ssh-ed25519 255 hESleWVXa68XFtuGd5cGljGYn2mqf1kVZtJV5ajifpg""
 
 :: Check if direction is not empty
 if /i not "%localFolder%"=="" if /i not "%serverFolder%"=="" (
